@@ -27,7 +27,7 @@ python -m venv venv
 ````
 
 3. Activate the virtual environment:
-For windows:
+For Windows:
 ````
 .\venv\Scripts\activate
 ````
@@ -40,7 +40,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ````
 5. Groq API-Key Environment setup:
-Obtain a free API key from GroqCloud by signing up at: https://console.groq.com/keys
+### Obtain a free API key from GroqCloud by signing up at: https://console.groq.com/keys
 **Windows Set-up**
 **Option 1**: Set your ‘GROQ_API_KEY’ Environment Variable via the cmd prompt
 Run the following in the cmd prompt, replacing <yourkey> with your API key:
@@ -73,5 +73,5 @@ Variable value: <yourkey>
    - Run the command listed in `app_build_command.txt` to create the executable.
 
 
-### Acknowledgements
+## Acknowledgements
 GroqCloud: For providing API access to advanced models.
