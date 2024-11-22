@@ -1,0 +1,14 @@
+LOG
+-session-id (primary) [Auto increment] [when app is opened]
+-date
+-time
+-name
+
+
+Sessions
+-id (primary) [Auto increment]
+-session-id 
+-time
+-summary-type
+-input
+-summary

@@ -1,0 +1,1 @@
+pyinstaller --onefile --windowed --icon="../icons/app_icon.ico" --add-data "../icons;icons" --add-data "summarizer_app.db;." --name T"&"C_Chatbot app.py
