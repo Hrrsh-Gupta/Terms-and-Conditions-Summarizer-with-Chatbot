@@ -12,9 +12,7 @@ This project is a PyQt5 GUI-based application designed to simplify the summariza
 
 ## Prerequisites
 - The app was developed in Python 3.11. Ensure Python 3.11 or higher is installed.
-  
-[!NOTE]
-Ensure you have a GroqAPI key in environment variables to use abstractive summary and chatbot functionalities. To get a key check Groq API-Key Environment setup under Installation.
+- Ensure you have a GroqAPI key in environment variables to use abstractive summary and chatbot functionalities. To get a key check Groq API-Key Environment setup under Installation.
 
 ## Installation
 
@@ -63,7 +61,7 @@ Variable name: GROQ_API_KEY
 Variable value: <yourkey>
 ````
    
-##Usage
+## Usage
 1. Run the application app.py in your IDE or terminal.
 2. Building the Executable.
    - Activate your virtual environment.
@@ -71,8 +69,8 @@ Variable value: <yourkey>
    ````
    pip install pyinstaller
    ````
-   -Change directory to the project's main folder.
-   -Run the command listed in `app_build_command.txt` to create the executable.
+   - Change directory to the project's main folder.
+   - Run the command listed in `app_build_command.txt` to create the executable.
 
 
 ### Acknowledgements
