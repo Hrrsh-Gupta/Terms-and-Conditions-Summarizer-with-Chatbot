@@ -17,49 +17,50 @@ This project is a PyQt5 GUI-based application designed to simplify the summariza
 ## Installation
 
 1. Clone the repository:
-````
+```bash
 git clone <repository_url>
-````
+```
 
 2. Create a virtual environment (recommended):
-````
+```bash
 python -m venv venv
-````
+```
 
 3. Activate the virtual environment:
-For Windows:
-````
+**For Windows:**
+```bash
 .\venv\Scripts\activate
-````
-For Linux/Mac:
-````
+```
+**For Linux/Mac:**
+```bash
 source venv/bin/activate
-````
+```
 4. Install the required packages:
-````
+```bash
 pip install -r requirements.txt
-````
+```
 5. Groq API-Key Environment setup:
-### Obtain a free API key from GroqCloud by signing up at: https://console.groq.com/keys
-**Windows Set-up**
-**Option 1**: Set your ‘GROQ_API_KEY’ Environment Variable via the cmd prompt
-Run the following in the cmd prompt, replacing <yourkey> with your API key:
-````
-setx GROQ_API_KEY "<yourkey>"
-````
-You can validate that this variable has been set by opening a new cmd prompt window and typing in 
-````
-echo %GROQ_API_KEY%
-````
+   Obtain a free API key from GroqCloud by signing up at: [GroqCloud](https://console.groq.com/keys)
+   **Windows Set-up**
 
-**Option 2**: Set your ‘GROQ_API_KEY’ through Environment Variables.
-1. Select "Edit the system environment variables" on start menu.
-2. Select Environment Variables...
-3. Select New… from the User variables section(top). Add your name/key value pair, replacing <yourkey> with your API key.
-````
-Variable name: GROQ_API_KEY
-Variable value: <yourkey>
-````
+   **Option 1**: Set your ‘GROQ_API_KEY’ Environment Variable via the cmd prompt
+   Run the following in the cmd prompt, replacing <yourkey> with your API key:
+   ```
+   setx GROQ_API_KEY "<yourkey>"
+   ```
+   You can validate that this variable has been set by opening a new cmd prompt window and typing in 
+   ```
+   echo %GROQ_API_KEY%
+   ```
+
+   **Option 2**: Set your ‘GROQ_API_KEY’ through Environment Variables.
+   1. Select "Edit the system environment variables" on start menu.
+   2. Select Environment Variables...
+   3. Select New… from the User variables section(top). Add your name/key value pair, replacing <yourkey> with your API key.
+   ````
+   Variable name: GROQ_API_KEY
+   Variable value: <yourkey>
+   ````
    
 ## Usage
 1. Run the application app.py in your IDE or terminal.
