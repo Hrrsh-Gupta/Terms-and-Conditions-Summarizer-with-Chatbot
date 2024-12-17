@@ -18,7 +18,7 @@ This project is a PyQt5 GUI-based application designed to simplify the summariza
 
 1. Clone the repository:
 ```bash
-git clone <repository_url>
+git clone [<repository_url>](https://github.com/Hrrsh-Gupta/Terms-and-Conditions-Summarizer-with-Chatbot.git)
 ```
 
 2. Create a virtual environment (recommended):
