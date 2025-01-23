@@ -1457,8 +1457,8 @@ class TermsSummarizerApp(QMainWindow):
 
     def load_attachment_chatbot(self,param):
         input_text = param
-        extracted_text, path = self.extract_text_pytesseract()
-        # extracted_text, path = self.extract_text_easyocr()
+        # extracted_text, path = self.extract_text_pytesseract()
+        extracted_text, path = self.extract_text_easyocr()
 
         if extracted_text:
             input_text.setText(extracted_text)
